@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+	Uri="https://appinstaller-azure-demo.azurewebsites.net/MySampleApp.msixbundle/BrowserLauncher_x64.appinstaller"
+	Version="1.1.8.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
+	<MainPackage
+		Name="c1d3f9c0-8480-46af-8f44-8eeade551be0"
+		Version="1.1.8.0"
+		Publisher="CN=BruteForceSelfieManager"
+		Uri="https://appinstaller-azure-demo.azurewebsites.net/MySampleApp.msixbundle/BrowserLauncher_1.1.8.0_x64_Test/BrowserLauncher_1.1.8.0_x64.msix"
+		ProcessorArchitecture="x64" />
+	<Dependencies>
+		<Package
+			Name="Microsoft.WindowsAppRuntime.1.6"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="x64"
+			Uri="https://appinstaller-azure-demo.azurewebsites.net/MySampleApp.msixbundle/BrowserLauncher_1.1.8.0_x64_Test/Dependencies/x64/Microsoft.WindowsAppRuntime.1.6.msix"
+			Version="6000.266.2241.0" />
+	</Dependencies>
+	<UpdateSettings>
+		<OnLaunch
+			HoursBetweenUpdateChecks="1" />
+	</UpdateSettings>
+</AppInstaller>
